@@ -1,0 +1,2 @@
+# vueappbase
+Baseline Architecture Vuejs
