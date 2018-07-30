@@ -15,11 +15,13 @@
     <div class="right">
       <Stats/>
     </div>
+    <TestAxios/>
   </div>
 </template>
 
 <script>
 import Stats from '@/components/Stats.vue'
+import TestAxios from '@/components/TestAxios.vue'
 import { mapState, mapMutations, mapActions } from 'vuex'
 export default {
   name: 'HelloWorld',
@@ -29,7 +31,8 @@ export default {
     }
   },
   components: {
-    Stats
+    Stats,
+    TestAxios
   },
   computed: {
     ...mapState([
